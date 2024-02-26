@@ -9,4 +9,7 @@ Ramp-Up Period: Configure a ramp-up period of 3 seconds. This means that JMeter 
 
 Loop Count: Set the loop count to 1, indicating that each virtual user will execute the test plan only once. If you want to repeat the test multiple times, you can increase this value accordingly.
 
+View Results:
+
+Once the test is completed, the result will be showed in the listener. Then I have prepared a summary report to display the result in a tabular format showing metrics such as average response time, throughput, error count, etc.
 With these settings, JMeter will simulate 10 concurrent users accessing the website, with a gradual increase over 3 seconds, and each user will execute the test plan once. This setup allows you to assess the website's performance under moderate load conditions.
